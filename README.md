@@ -16,9 +16,9 @@ This is a solution to the [Single price grid component challenge on Frontend Men
 
 ### Screenshot
 ### computer screen
-![](./ss.jpeg)
+![](./images/ss.jpeg)
 ### mobile screen
-![](./Mss.jpeg)
+![](./images/Mss.jpeg)
 
 
 
