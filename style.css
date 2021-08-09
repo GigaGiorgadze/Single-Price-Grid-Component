@@ -1,0 +1,131 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Karla', sans-serif;
+    background-color: hsl(204, 43%, 93%);
+}
+.main{
+    width: 45vw;
+    height: 55vh;
+    margin: 20vh auto;
+    background-color: white;
+    -webkit-box-shadow: 2px 0px 18px 0px rgba(0,0,0,0.47); 
+    box-shadow: 2px 0px 18px 0px rgba(0,0,0,0.47);
+    display: flex;
+    flex-direction: column;
+}
+.top{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    height: 45%;
+}
+.topChild h3{
+    font-size: 2.5vh;
+    color: hsl(179, 62%, 43%);
+}
+#limeText{
+    color: hsl(71, 73%, 54%);
+    font-size: 2.3vh;
+}
+.topChild{
+    width: 90%;
+    height: 90%;
+}
+.topChild p{
+    color: hsl(218, 22%, 67%);
+    font-size: 2.2vh;
+}
+.bot{
+    height: 55%;
+    display: flex;
+}
+.left{
+    background-color: hsl(179, 62%, 43%);
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.right{
+    background-color: hsla(179, 62%, 43%, 0.788);
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.rightChild{
+    width: 80%;
+    height: 95%;
+}
+.leftChild{
+    width:80%;
+    height: 90%;
+}
+.leftChild h3{
+    font-size: 2.3vh;
+    color: white;
+    margin: 0;
+    margin-bottom: 1.5vh;
+    font-weight: 100;
+}
+.month{
+    display: flex;
+    align-items: center;
+}
+.month h1{
+    margin: 0;
+    font-size: 5vh;
+    margin-right: 0.5vw;
+    color: white;
+}
+.month span{
+    color: hsl(204, 43%, 93%);
+    font-size: 2vh;
+}
+#access{
+    color: hsl(204, 43%, 93%);
+    font-size: 2vh;
+}
+.left button{
+    background-color: hsl(71, 73%, 54%);
+    border: none;
+    width: 100%;
+    height: 25%;
+    font-size: 2vh;
+    color: white;
+}
+.rightChild h3{
+    color: white;
+    font-size: 2.3vh;
+}
+.rightChild p{
+    text-align: start;
+    width: 65%;
+    color: hsl(204, 43%, 93%);
+    font-size: 2vh;
+    font-weight: 100;
+}
+@media only screen and (max-width: 600px) {
+    .main{
+        height: 90vh;
+        margin: 5vh auto;
+        width: 85vw;
+    }
+    .bot{
+        flex-direction: column;
+        height: 60%;
+    }
+    .top{
+        height: 40%;
+    }
+    .left{
+        width: 100%;
+        height: 45%;
+    }
+    .right{
+        width: 100%;
+        height: 55%;
+    }
+  }
